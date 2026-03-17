@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../Components/Style.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <div id="navbar"></div>
+
+    <section class="contact-section">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8">
+                    <div class="card contact-card">
+                        <div class="contact-header">
+                            <h2 class="contact-title mb-2" style="color: white;">Contact Us</h2>
+                            <p class="contact-subtitle mb-0">We'd love to hear from you! Send us a message anytime.</p>
+                        </div>
+                        <div class="card-body">
+
+                            <!-- Contact Form -->
+                            <form id="contactForm">
+                                <div class="mb-3">
+                                    <label class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                    <div class="invalid-feedback" id="nameError"></div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="example@email.com">
+                                    <div class="invalid-feedback" id="emailError"></div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Subject</label>
+                                    <select class="form-select" id="subject">
+                                        <option value="" selected disabled>Select Subject</option>
+                                        <option value="Complaint">Complaint</option>
+                                        <option value="Inquiry">Inquiry</option>
+                                    </select>
+                                    <div class="invalid-feedback" id="subjectError"></div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label class="form-label">Your Message</label>
+                                    <textarea class="form-control" id="message" rows="5"></textarea>
+                                    <div class="invalid-feedback" id="messageError"></div>
+                                </div>
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-send">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <div id="footer"></div> -->
+    <!-- Start Footer -->
+    <footer class="bg-dark">
+        <div class="container bg-dark">
+            <div class="row pt-5">
+                <div class="col-12 text-center mb-5 pb-5">
+                    <h2 class="h1"><a href="#" style="text-decoration: none; color: #fff;">Avion</a>
+                    </h2>
+                </div>
+                <div class="col-6  col-lg-2">
+                    <ul class="list-unstyled">
+                        <h5>Categroies</h5>
+                        <li><a href="../HomePage&Products/categroy.html?categroy=TV" class="text-white-50"> Tvs</a></li>
+                        <li><a href="../HomePage&Products/categroy.html?categroy=Gaming"
+                                class="text-white-50">Gaming</a></li>
+                        <li><a href="../HomePage&Products/categroy.html?categroy=Computers"
+                                class="text-white-50">Computers</a></li>
+                        <li><a href="../HomePage&Products/categroy.html?categroy=Bluetooth"
+                                class="text-white-50">Bluetooth</a></li>
+                        <li><a href="../HomePage&Products/categroy.html?categroy=Accessories"
+                                class="text-white-50">Accessories</a></li>
+                        <li><a href="../HomePage&Products/categroy.html?categroy=Phones"
+                                class="text-white-50">Phones</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6  col-lg-2">
+                    <ul class="list-unstyled">
+                        <h5>Menu</h5>
+                        <li><a href="#" class="text-white-50">New arrivals</a></li>
+                        <li><a href="#" class="text-white-50">Best sellers</a></li>
+                        <li><a href="#" class="text-white-50">Recently viewed</a></li>
+                        <li><a href="#" class="text-white-50">Popular this week</a></li>
+                        <li><a href="../HomePage&Products/AllProducts.html" class="text-white-50">All products</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-12  col-lg-2">
+                    <ul class="list-unstyled">
+                        <h5>Our company</h5>
+                        <li><a href="../About/about.html" class="text-white-50">About us</a></li>
+                        <li><a href="#" class="text-white-50">Vacancies</a></li>
+                        <li> <a href="../ContactUs/Contact.html" class="text-white-50">Contact us</a></li>
+                        <li><a href="#" class="text-white-50">Privacy</a></li>
+                        <li><a href="#" class="text-white-50">Returns policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <h6>Join our mailing list</h6>
+                    <p class="text-white-50">Be the first to hear about the latest offers.</p>
+                    <div class="d-flex  justify-content-center after-brdr">
+                        <input type="email" placeholder="your@email.com" style="width:75%">
+                        <button style="width:25%;">Sign Up</button>
+                    </div>
+                </div>
+
+                <hr class="d-none d-lg-block">
+                <div class="row justify-content-between  align-items-center m-auto">
+
+                    <h6 class="p-3 text-center col-lg-3">Copyright 2026 Avion LTD</h6>
+
+                    <ul class="list-unstyled col-lg-3  gap-3 d-flex text-white-50">
+                        <li><span><i class="fa-brands fa-linkedin"></i></span></li>
+                        <li><span><i class="fa-brands fa-facebook"></i></span></li>
+                        <li><span><i class="fa-brands fa-instagram"></i></span></li>
+                        <li><span><i class="fa-brands fa-skype"></i></span></li>
+                        <li><span><i class="fa-brands fa-twitter"></i></span></li>
+                        <li><span><i class="fa-brands fa-pinterest"></i></span></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Toast (Top Right) -->
+    <div class="toast-container position-fixed top-0 end-0 p-3" style="z-index: 9999;">
+
+        <div id="mainToast" class="toast align-items-center text-white border-0" role="alert">
+            <div class="d-flex">
+                <div class="toast-body" id="toastMessage">
+                    Message here
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+<script src="../GeneralFunctions/showToast.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
+
+<!-- Load Components -->
+<script src="../Components/loadCompnent.js"></script>
+
+<script src="JS/Contact.js"></script>
+<script src="../guard.js"></script>
+
+</html>

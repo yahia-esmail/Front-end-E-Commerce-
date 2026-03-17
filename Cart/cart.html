@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Shopping Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../Components/Style.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <div class="container py-5">
+        <!-- Title -->
+        <div class="mb-5 d-flex flex-column flex-md-row justify-content-between">
+            <h2 class="fw-semibold d-md-inline-block mb-3 mb-md-0">Your shopping cart</h2>
+            <button class="btn btn-dark text-white px-3 align-self-end" id="continue">Continue Shopping</button>
+
+        </div>
+        <!-- Table Header -->
+        <div class="row fw-semibold border-bottom  pb-2 d-none d-md-flex">
+            <div class="col-md-6">Product</div>
+            <div class="col-md-3 text-center">Quantity</div>
+            <div class="col-md-3 text-end">Total</div>
+        </div>
+
+
+        <!-- Cart Items -->
+        <div id="cart-items">
+            <!-- Item -->
+
+        </div>
+        <!--end of item-->
+
+
+        <!-- Subtotal Section -->
+        <div class="row justify-content-end mt-5">
+            <div class="col-12 col-md-4">
+
+                <div class="d-flex justify-content-end gap-3 mb-2" style="font-size: 20px;">
+                    <span class="fw-semibold">Subtotal </span>
+                    <span class="fw-bold" id="total-price"></span>
+                </div>
+
+                <p class="small mb-3 text-end">
+                    Taxes and shipping are calculated at checkout
+                </p>
+
+                <div class="d-flex justify-content-end">
+                    <button class="btn btn-dark w-75 py-3" id="go_Checkout">
+                        Go to checkout
+                    </button>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <div id="footer" class="d-none"></div>
+    <!-- Start Footer -->
+    <footer class="bg-dark">
+        <div class="container bg-dark">
+            <div class="row pt-5">
+                <div class="col-12 text-center mb-5 pb-5">
+                    <h2 class="h1"><a href="#" style="text-decoration: none; color: #fff;">Avion</a>
+                    </h2>
+                </div>
+                <div class="col-6  col-lg-2">
+                    <ul class="list-unstyled">
+                        <h5>Categroies</h5>
+                        <li><a href="../HomePage&Products/categroy.html?categroy=TV" class="text-white-50"> Tvs</a></li>
+                        <li><a href="../HomePage&Products/categroy.html?categroy=Gaming"
+                                class="text-white-50">Gaming</a></li>
+                        <li><a href="../HomePage&Products/categroy.html?categroy=Computers"
+                                class="text-white-50">Computers</a></li>
+                        <li><a href="../HomePage&Products/categroy.html?categroy=Bluetooth"
+                                class="text-white-50">Bluetooth</a></li>
+                        <li><a href="../HomePage&Products/categroy.html?categroy=Accessories"
+                                class="text-white-50">Accessories</a></li>
+                        <li><a href="../HomePage&Products/categroy.html?categroy=Phones"
+                                class="text-white-50">Phones</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6  col-lg-2">
+                    <ul class="list-unstyled">
+                        <h5>Menu</h5>
+                        <li><a href="#" class="text-white-50">New arrivals</a></li>
+                        <li><a href="#" class="text-white-50">Best sellers</a></li>
+                        <li><a href="#" class="text-white-50">Recently viewed</a></li>
+                        <li><a href="#" class="text-white-50">Popular this week</a></li>
+                        <li><a href="../HomePage&Products/AllProducts.html" class="text-white-50">All products</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-12  col-lg-2">
+                    <ul class="list-unstyled">
+                        <h5>Our company</h5>
+                        <li><a href="../About/about.html" class="text-white-50">About us</a></li>
+                        <li><a href="#" class="text-white-50">Vacancies</a></li>
+                        <li> <a href="../ContactUs/Contact.html" class="text-white-50">Contact us</a></li>
+                        <li><a href="#" class="text-white-50">Privacy</a></li>
+                        <li><a href="#" class="text-white-50">Returns policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <h6>Join our mailing list</h6>
+                    <p class="text-white-50">Be the first to hear about the latest offers.</p>
+                    <div class="d-flex  justify-content-center after-brdr">
+                        <input type="email" placeholder="your@email.com" style="width:75%">
+                        <button style="width:25%;">Sign Up</button>
+                    </div>
+                </div>
+
+                <hr class="d-none d-lg-block">
+                <div class="row justify-content-between  align-items-center m-auto">
+                    <h6 class="p-3 text-center col-lg-3">Copyright 2026 Avion LTD</h6>
+                    <ul class="list-unstyled col-lg-3  gap-3 d-flex text-white-50">
+                        <li><span><i class="fa-brands fa-linkedin"></i></span></li>
+                        <li><span><i class="fa-brands fa-facebook"></i></span></li>
+                        <li><span><i class="fa-brands fa-instagram"></i></span></li>
+                        <li><span><i class="fa-brands fa-skype"></i></span></li>
+                        <li><span><i class="fa-brands fa-twitter"></i></span></li>
+                        <li><span><i class="fa-brands fa-pinterest"></i></span></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Toast (Top Right) -->
+    <div class="toast-container position-fixed top-0 end-0 p-3" style="z-index: 9999;">
+
+        <div id="mainToast" class="toast align-items-center text-white border-0" role="alert">
+            <div class="d-flex">
+                <div class="toast-body" id="toastMessage">
+                    Message here
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+
+<script src="../GeneralFunctions/showToast.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+<!-- Load Components -->
+
+<script src="JS/cart.js"></script>
+<script src="../guard.js"></script>
+<script src="../Components/loadCompnent.js"></script>
+
+</html>

@@ -1,0 +1,333 @@
+/* :root {
+    --dark-primary: #2A254B;
+    --primary: #726E8D;
+    --deep-dark-primary: #22202E;
+    --light-gray: #F9F9F9;
+    --container-text: #5B5676;
+    --light: #fff;
+    --btn-feature-bgcolor: #39385e;
+    --input-border: #DCDCDC;
+} */
+:root {
+    --dark-primary: #1b254b;
+    --primary: rgb(51, 45, 87);
+    --deep-dark-primary: #a3b1cc;
+    --light-gray: #F9F9F9;
+    --container-text: #3599db;
+    --light: #fff;
+    --btn-feature-bgcolor: #323e69;
+    --input-border: #DCDCDC;
+
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+
+.active {
+    /* color: #3599db !important; */
+    font-weight: bold !important;
+    border-bottom: 1px solid black  !important;
+}
+
+/* Start NavBr */
+.navbar-brand {
+    /* color: var(--deep-dark-primary) !important; */
+    color: black !important;
+    font-size: 2.1875rem !important;
+}
+
+.nav-link {
+    padding-inline: 1.875rem !important;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: var(--primary);
+}
+
+.icon-il>a {
+    color: var(--dark-primary);
+}
+
+.bottom-bar {
+    background-color: var(--light-gray);
+    /* margin-block: 1.25rem; */
+}
+
+.bottom-bar ul>li>a {
+    color: var(--primary);
+}
+
+.bottom-bar .nav-link {
+    padding-inline: 0.6875rem !important;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+/* ul span i {
+    color: #3599db;
+} */
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.logout-link {
+    width: fit-content;
+    color: #dc3545 !important;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.logout-link:hover {
+    color: #fff !important;
+    background-color: #dc3545 !important;
+}
+
+
+@media (max-width: 991px) {
+    .logout-link {
+        width: fit-content;
+        margin-left: 1.875rem;
+    }
+}
+
+/* End NavBra */
+/* Start Header */
+#headerPrds {
+    background-image: url('../imgs/allPrdsHeader4.jpg');
+    height: 209px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#headerPrds h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+/* End Header */
+
+/* Start Products */
+.card {
+    padding-inline: 1.5rem;
+    padding-block: 2.25rem;
+    border-color: transparent !important;
+    color: var(--dark-primary) !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+
+.card button {
+    background-color: var(--light-gray);
+    padding: 16px;
+    width: 100%;
+    color: var(--primary);
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+}
+
+
+.card span>i {
+    color: var(--primary);
+    font-size: 25px;
+    ;
+
+}
+
+
+#cart {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+/* #cart:hover {
+    background-color: var(--deep-dark-primary);
+} */
+
+.discount {
+    transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+}
+
+
+#product_name {
+    display: -webkit-box;
+    line-clamp: 2;
+    -Webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 48px;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+/* End Products */
+
+
+/*Controls */
+#controls {
+    background-color: var(--light-gray);
+}
+
+#controls i {
+    font-size: 1.875rem;
+    cursor: pointer;
+}
+
+h5 {
+    color: var(--dark-primary);
+
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid var(--input-border);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--dark-primary);
+}
+
+
+
+
+/* Drop Down  */
+.dropdown button {
+    background-color: var(--light-gray);
+}
+
+.btn {
+    padding: 16px 24px 16px 32px;
+    width: 163px;
+    height: 56px;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+
+#logout-btn .btn {
+    width: auto;
+    height: auto;
+    padding: 6px 16px;
+    border-radius: 50px !important;
+}
+
+.dropdown-menu {
+    --bs-dropdown-border-radius: 0px;
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    border: none !important;
+}
+
+/* Start Footer */
+footer {
+    /* background-color: var(--dark-primary); */
+    color: var(--light);
+    padding: 2.5rem 0.625rem;
+}
+
+footer input {
+    /* background-color: var(--btn-feature-bgcolor); */
+    padding: 1.25rem;
+    border-color: transparent;
+}
+
+/* footer input::placeholder {
+    color: var(--light);
+} */
+
+footer button {
+    /* color: var(--dark-primary); */
+    border-color: transparent;
+}
+
+.after-brdr {
+    position: relative;
+    padding-bottom: 1.25rem;
+    width: 95%;
+    text-align: center;
+}
+
+.after-brdr::after {
+    content: '';
+    background-color: var(--primary);
+    width: 100%;
+    height: 0.125rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+hr {
+    background-color: #fff;
+}
+
+footer ul>li i {
+    font-size: 1.5625rem;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+footer ul>li i:hover {
+    color: #fff
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* End Footer */

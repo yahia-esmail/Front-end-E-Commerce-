@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #212529;
+    --secondary-color: #F9F9F9;
+    --white : #fff
+}
+
+
+/* to highlight active nav link */
+.active-nav{
+    color: var(--primary-color) ;
+    font-weight: bold;
+}
+
+.tabs-container{
+    background-color: var(--primary-color) ;
+    color: rgba(255, 255, 255, 0.573);
+}
+.main-tab{
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 200ms ease-in-out;
+}
+.sub-tab{
+    display: none; /* initial style to show only sub-tab that is related to the clicked main tab*/
+}
+
+/* to highlight active tab in dashboard */
+.active-tab{
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    /* color: black; */
+    /* box-shadow: 1px 1px 10px black; */
+}
+/* to open active sub-tab in dashboard */
+.active-sub-tab{
+    display: block;
+}
+
+.product-img{
+    width: 100px;
+}
+
+/* this for customer form */
+/* styles for the error msg for the inputs */
+.message {
+    display:none;
+    background: #f1f1f1;
+    z-index: 10;
+}
+/* make the color green when the input is valid*/
+.valid {
+    color: green;
+}
+/* make the color red when the input is invalid*/
+.invalid {
+    color: red;
+}
+
+
+.customers-table {
+    padding: 3rem !important;
+}
+
+
+.active {
+    /* color: #3599db !important; */
+    font-weight: bold !important;
+    border-bottom: 1px solid black  !important;
+}
+
+/* Start NavBr */
+.navbar-brand {
+    /* color: var(--deep-dark-primary) !important; */
+    color: black !important;
+    font-size: 2.1875rem !important;
+}
+
+.nav-link {
+    padding-inline: 1.875rem !important;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: var(--primary);
+}
+
+.icon-il>a {
+    color: var(--dark-primary);
+}
+.logout-link {
+    width: fit-content;
+    color: #dc3545 !important;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.logout-link:hover {
+    color: #fff !important;
+    background-color: #dc3545 !important;
+}

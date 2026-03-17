@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "firstName": "Admin",
+        "lastName": "",
+        "fullName": "Admin",
+        "email": "admin@store.com",
+        "password": "123456",
+        "role": "admin",
+        "address": "Alexandria",
+        "street": "Corniche Road",
+        "phone": "01204520540"
+    },
+    {
+        "id": 2,
+        "firstName": "Seller",
+        "lastName": "One",
+        "fullName": "Seller One",
+        "email": "seller1@gmail.com",
+        "password": "123456",
+        "role": "seller",
+        "address": "Mansoura",
+        "street": "El Geish Street",
+        "phone": "01228774138"
+    },
+    {
+        "id": 3,
+        "firstName": "Kariem",
+        "lastName": "Tamer",
+        "fullName": "Kariem Tamer",
+        "email": "Kariem@gmail.com",
+        "password": "123456",
+        "role": "customer",
+        "address": "Mansoura",
+        "street": "El Geish Street",
+        "phone": "01040393484"
+    },
+    {
+        "id": 4,
+        "firstName": "Ahmed",
+        "lastName": "Mohamed",
+        "fullName": "Ahmed Mohamed",
+        "email": "ahmed@gmail.com",
+        "password": "123456",
+        "role": "customer",
+        "address": "6th of October",
+        "street": "Al Hosary Square",
+        "phone": "01169570136"
+    },
+    {
+        "id": 5,
+        "firstName": "Sara",
+        "lastName": "Ali",
+        "fullName": "Sara Ali",
+        "email": "sara@gmail.com",
+        "password": "123456",
+        "role": "customer",
+        "address": "Port Said",
+        "street": "Al Gomhoria Street",
+        "phone": "01551258391"
+    },
+    {
+        "id": 6,
+        "firstName": "Omar",
+        "lastName": "Hassan",
+        "fullName": "Omar Hassan",
+        "email": "omar@gmail.com",
+        "password": "123456",
+        "role": "customer",
+        "address": "Maadi",
+        "street": "Road 9",
+        "phone": "01185057916"
+    },
+    {
+        "id": 7,
+        "firstName": "Seller",
+        "lastName": "Two",
+        "fullName": "Seller Two",
+        "email": "seller2@gmail.com",
+        "password": "123456",
+        "role": "seller",
+        "address": "Maadi",
+        "street": "Road 9",
+        "phone": "01191723816"
+    },
+    {
+        "id": 8,
+        "firstName": "Seller",
+        "lastName": "Three",
+        "fullName": "Seller Three",
+        "email": "seller3@gmail.com",
+        "password": "123456",
+        "role": "seller",
+        "address": "Nasr City",
+        "street": "Makram Ebeid Street",
+        "phone": "01150374216"
+    }
+]
